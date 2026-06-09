@@ -1,0 +1,30 @@
+---
+title: "Resources"
+---
+
+Curated public resources for ML weather prediction, verification, benchmarking,
+data formats, and physical-process evaluation.
+
+This page should start small and include only durable, public resources.
+
+## MLWP Frontier
+
+- Km-scale MLWP publications website: <https://leifdenby.github.io/kmscale-pubs/>
+
+## Verification And Benchmarking
+
+- WP-MIP: Weather Prediction Model Intercomparison Project: <https://www.wcrp-esmo.org/activities/wp-mip>
+- Verification of AI-models in Operational Centers: <https://hpfx.collab.science.gc.ca/~bca851/VerAIops2025/index.html>
+- VerAI workshop on verification of AI-based meteorological forecasts: <https://www.met.reading.ac.uk/~pt904209/VerAI2025/index.html>
+
+## Physical-Process Evaluation
+
+- Moldovan et al. 2026, AIFS Single 1.1.0: <https://doi.org/10.5194/gmd-19-4703-2026>
+
+## Data Formats And Tooling
+
+More links to be added as public resources become stable.
+
+## Community Initiatives
+
+More links to be added as public resources become stable.

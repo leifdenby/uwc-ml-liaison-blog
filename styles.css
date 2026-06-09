@@ -1,0 +1,15 @@
+.navbar-title {
+  font-weight: 700;
+}
+
+.quarto-title .subtitle {
+  max-width: 58rem;
+}
+
+main {
+  line-height: 1.6;
+}
+
+h2 {
+  margin-top: 2rem;
+}

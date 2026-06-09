@@ -1,0 +1,14 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: true
+---
+
+Public synthesis from the UWC ML Liaison role: updates, project notes,
+technical reflections, seminar summaries, and open questions for the MLWP
+community.

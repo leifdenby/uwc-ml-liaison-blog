@@ -1,0 +1,24 @@
+---
+title: "UWC ML Liaison Notes"
+subtitle: "Machine-learning weather prediction, verification, physical processes, and collaboration across UWC."
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  max-items: 3
+  categories: true
+page-layout: full
+---
+
+Hi 👋 and welcome to my notes as ML Liaison for the United Weather Centers
+(UWC, comprised of the meteorological services of [DMI](https://dmi.dk),
+[ESTEA](https://www.envir.ee/en), [FMI](https://en.ilmatieteenlaitos.fi),
+[IMO](https://en.vedur.is), [Met Éireann](https://www.met.ie),
+[LEGMC](https://www.meteo.lv), [LHMS](https://www.meteo.lt),
+[KNMI](https://www.knmi.nl), [MET Norway](https://www.met.no),
+[AEMET](https://www.aemet.es) and [SMHI](https://www.smhi.se)!
+
+My aim is to use this site to document my work in the UWC ML Liaison role,
+principally in the form of [blog posts](posts.qmd).
+
+## Latest Posts

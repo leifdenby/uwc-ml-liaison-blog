@@ -1,0 +1,28 @@
+---
+title: "About"
+---
+
+This is a public working notebook for Leif Denby's role as UWC ML Liaison.
+
+The role focuses on helping UWC institutions and related communities understand
+and coordinate work on machine-learning weather prediction (MLWP), especially
+where shared scientific understanding, verification, data formats, and tooling
+can reduce duplication and improve operational readiness.
+
+## What This Site Is
+
+- A role-branded blog and project hub.
+- A place to share synthesis, open questions, and collaboration opportunities.
+- A public complement to private internal tracking and project notes.
+
+## What This Site Is Not
+
+- An official E-AI website.
+- A formal UWC governance channel.
+- A complete documentation portal for MLWP tools.
+- A public archive of private meeting notes or institutional positions.
+
+## How To Engage
+
+Suggestions for papers, seminar topics, datasets, verification methods,
+collaboration opportunities, or project links are welcome. See [Contact](contact.qmd).

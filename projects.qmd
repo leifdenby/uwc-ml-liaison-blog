@@ -1,0 +1,38 @@
+---
+title: "Projects"
+---
+
+Stable project pages for ongoing UWC ML Liaison work. Blog posts will provide
+updates and reflections; these pages should remain relatively stable.
+
+## Physical-Process MLWP Seminar Series
+
+A seminar series focused on whether and how machine-learning weather prediction
+models represent atmospheric processes. See [Seminar Series](seminar-series.qmd).
+
+## Common MLWP Verification Tooling
+
+Work towards reusable tooling for evaluating MLWP forecasts, including common
+data structures, verification workflows, and process-aware diagnostics.
+
+This work connects to the planned split of RMI-developed verification tooling
+into focused packages such as data specifications, data loaders, and alignment /
+verification components.
+
+## Km-Scale MLWP Frontier / Review
+
+Work to map the published state of the art for kilometre-scale MLWP, including
+known strengths, limitations, physical consistency, uncertainty, and cloud /
+precipitation behaviour.
+
+## MLWP Data Sharing And Common Formats
+
+Work towards shared forecast datasets, common object-store infrastructure, and
+forecast data formats suitable for operational and scientific comparison across
+centres.
+
+## MLWP Ecosystem Map
+
+A possible public-facing overview of software, models, datasets, and community
+initiatives relevant to ML weather forecasting. Publication depends on whether
+the material is durable and safe to share.

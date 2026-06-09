@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - posts.qmd
+    - projects.qmd
+    - seminar-series.qmd
+    - resources.qmd
+    - about.qmd
+    - contact.qmd
+    - posts/**/*.qmd
+
+website:
+  title: "UWC ML Liaison Notes"
+  description: "A public working notebook on machine-learning weather prediction, verification, physical processes, and collaboration across UWC."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: posts.qmd
+        text: Blog
+      - href: projects.qmd
+        text: Projects
+      - href: seminar-series.qmd
+        text: Seminar Series
+      - href: resources.qmd
+        text: Resources
+      - href: about.qmd
+        text: About
+      - href: contact.qmd
+        text: Contact
+  page-footer:
+    left: "UWC ML Liaison Notes"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    link-external-newwindow: true
+    date-format: long
+
+execute:
+  freeze: auto

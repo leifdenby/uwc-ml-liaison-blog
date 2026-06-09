@@ -1,0 +1,46 @@
+---
+title: "Physical-Process MLWP Seminar Series"
+---
+
+The Physical-Process MLWP Seminar Series is intended as a lightweight forum for
+scientific exchange on machine-learning weather prediction through the lens of
+atmospheric processes and physical consistency.
+
+The aim is not to promote one model architecture or software framework. The aim
+is to ask what current MLWP systems can and cannot represent physically, and how
+we can learn from successes, failures, and targeted diagnostics.
+
+## Guiding Questions
+
+Each seminar should try to answer:
+
+- What physical process is being studied?
+- What model, dataset, architecture, training setup, diagnostic, or constraint
+  is being tested?
+- What was the hypothesis for improving or evaluating representation of the
+  process?
+- What were the findings?
+- What might transfer to other MLWP settings?
+- What remains unresolved?
+
+## Candidate Themes
+
+- Convective initiation and precipitation organisation.
+- Cloud and precipitation physics.
+- Physical consistency and conservation constraints.
+- Geostrophic balance, stability, waves, and dynamical consistency.
+- Extremes and rare events beyond pointwise scores.
+- Spatial structure and object-based verification.
+- Generative and probabilistic models: are sampled structures physically
+  meaningful?
+- Physics-based constraints and regime separation, for example dry versus
+  slight-rain conditions.
+- Data assimilation and latent-state representations.
+- Architecture choices from a physical-process perspective.
+
+## Participation
+
+The series is still being formed. Suggestions for speakers, papers, topics, or
+examples are welcome. See [Contact](contact.qmd).
+
+Confirmed seminars will be listed here once speakers have agreed.

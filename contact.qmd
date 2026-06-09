@@ -1,0 +1,17 @@
+---
+title: "Contact"
+---
+
+Contact Leif Denby with suggestions, questions, or collaboration ideas related
+to UWC ML Liaison work.
+
+Useful input includes:
+
+- papers or reports on machine-learning weather prediction
+- examples of physical-process evaluation
+- verification and benchmarking efforts
+- datasets or tooling relevant to MLWP comparison
+- suggested seminar speakers or topics
+- opportunities for collaboration across meteorological services
+
+Email: <lcd@dmi.dk>
