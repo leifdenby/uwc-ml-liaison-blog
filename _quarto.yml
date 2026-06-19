@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - CNAME
   render:
     - index.qmd
     - posts.qmd
@@ -14,6 +16,7 @@ project:
 website:
   title: "UWC ML Liaison Notes"
   description: "A public working notebook on machine-learning weather prediction, verification, physical processes, and collaboration across UWC."
+  site-url: https://uwc-ml.denby.eu
   navbar:
     left:
       - href: index.qmd
