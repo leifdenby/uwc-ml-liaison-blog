@@ -48,6 +48,11 @@ The public URL is:
 The custom domain is configured by the top-level `CNAME` file, which Quarto
 copies into the rendered site.
 
+Blog post comments are powered by
+[utterances](https://utteranc.es/) using GitHub Issues in this repository. To
+enable them, turn on Issues for the repository and install the utterances GitHub
+App for `leifdenby/uwc-ml-liaison-blog`.
+
 DNS should contain:
 
 ```text

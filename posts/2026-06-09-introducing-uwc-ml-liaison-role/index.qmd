@@ -242,4 +242,4 @@ This first post is only a starting point. Some topics I expect to return to are:
 
 Suggestions are welcome: papers, datasets, verification methods, physical-
 process studies, seminar speakers, or collaboration ideas. See the
-[Contact](../../contact.qmd) page.
+[Contact](../../contact.qmd) page or put in a comment below! 😊
