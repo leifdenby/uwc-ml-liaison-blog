@@ -93,6 +93,25 @@ Core questions:
 - How should physical consistency be evaluated?
 - What would make a benchmark useful to operational meteorological services?
 
+### 6. The Current Software Ecosystem For ML Weather Forecasting
+
+Purpose:
+- map the software, model, data, and tooling ecosystem emerging around MLWP
+- identify what is reusable, what is fragmented, and where common infrastructure
+  could help meteorological services
+
+Core questions:
+- Which model frameworks, trained models, datasets, and tooling projects are
+  becoming important?
+- Which parts of the stack are mature enough for operational experimentation?
+- Where are centres duplicating effort?
+- What does the ecosystem make easy, and what does it make difficult?
+- What should UWC track or support as shared infrastructure?
+
+Source material:
+- `../../Coordination/earthsci-ml-ecosystem/`
+- `../../Tracking/Logbook/2026-05-07.md`
+
 ## Core Pages
 
 ### Home

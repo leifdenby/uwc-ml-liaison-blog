@@ -1,6 +1,6 @@
 ---
 title: "UWC ML Liaison Notes"
-subtitle: "Machine-learning weather prediction, verification, physical processes, and collaboration across UWC."
+subtitle: "Machine-learning weather prediction collaboration across UWC (and wider meteorological community)."
 listing:
   contents: posts
   sort: "date desc"
@@ -11,14 +11,23 @@ page-layout: full
 ---
 
 Hi 👋 and welcome to my notes as ML Liaison for the United Weather Centers
-(UWC, comprised of the meteorological services of [DMI](https://dmi.dk),
+(UWC*)!
+
+My aim for this website is to use it to document my work in the UWC ML Liaison role,
+principally in the form of [blog posts](posts.qmd), and create pages that help coordinate my work across the meteorological community.
+
+I am writing this site because I have always enjoyed reading technical blogs
+myself, and I thought having a website would help me communicate and organise
+different projects I am undertaking in my ML Liaison role.
+
+If you are interested in more background about the ML Liaison role itself and what I am to do with it
+[please check out my first blog post](posts/2026-06-09-introducing-uwc-ml-liaison-role/index.qmd).
+
+> *: the UWC is comprised of the meteorological services of [DMI](https://dmi.dk),
 [ESTEA](https://www.envir.ee/en), [FMI](https://en.ilmatieteenlaitos.fi),
 [IMO](https://en.vedur.is), [Met Éireann](https://www.met.ie),
 [LEGMC](https://www.meteo.lv), [LHMS](https://www.meteo.lt),
 [KNMI](https://www.knmi.nl), [MET Norway](https://www.met.no),
-[AEMET](https://www.aemet.es) and [SMHI](https://www.smhi.se)!
-
-My aim is to use this site to document my work in the UWC ML Liaison role,
-principally in the form of [blog posts](posts.qmd).
+[AEMET](https://www.aemet.es) and [SMHI](https://www.smhi.se)
 
 ## Latest Posts
