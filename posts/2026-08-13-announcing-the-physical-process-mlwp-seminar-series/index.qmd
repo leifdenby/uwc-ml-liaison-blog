@@ -1,0 +1,188 @@
+---
+title: "Announcing The Physical-Process Focussed (PPF) MLWP Seminar Series"
+date: 2026-08-13
+author: "Leif Denby"
+categories:
+  - seminars
+  - physical-processes
+  - community
+---
+
+Machine-learning weather prediction (MLWP) is evolving rapidly, principally,
+I think, due to the number of untapped datasets that can be applied in already
+existing machine learning techniques.
+
+But, how do we:
+
+1. build trust that these MLWP models are actually skillful?
+2. enable further advancement of MLWP and joint development with data scientistis and domain scientists?
+3. ensure that, as scientists at meteorological instutions, we are able to
+   explain *why* model predictions are wrong when they inevetiably are wrong?
+   And further, ensure that we have a route to improve the models?
+
+To put the meteorological community on track address these questions I am
+advocating that we take a *physical-process focussed* approach to MLWP, or *PPF-MLWP* if you will :)
+
+I see (at least) the following motivations for using physical-proccess focussed angle to machine learning weather prediction:
+
+- develop trust that the model captures the evolution of physical processes through the mechanisms we observe in nature
+- evolve our understanding of how current and future machine-learning based models internally work so that we can diagnose issues and improve models
+- enable development of better machine-learning based forecasting models by
+  employing closer [algorithmic
+  alignment](https://youtu.be/1HhTpH3ZXMY?si=L-vdI8M24LATcS4-&t=501) to the
+  computational problem being solved. 
+- serve as a bridge between the computer science and data scientists developing
+  machine-learning architectures and the physical scientists and
+  meteorologists. Develop a common process and language around how to frame
+  model skill and model improvement.
+
+These aspects together are my motivation for **setting up a seminar series on
+physical-process-focused MLWP**, not just for UWC, but for the whole
+meteorological community. I will elaborate more on each of these motivations in
+the sections below.
+
+The series is will be a forum for talks and discussion about whether MLWP
+models represent the atmospheric processes relevant to weather prediction, and
+through this I hope to build a community of people that share these interests.
+I do not think headline scores are enough on their own. We also need
+to ask what the model is actually capturing, what it is missing, and which
+behaviours are transferable across settings.
+
+## Why the PPF-MLWP topic
+
+A [wealth of publications](https://leifdenby.github.io/kmscale-pubs/) MLWP has
+already shown that data-driven forecasting can be skilful. But skill alone does
+not tell us whether a model is scientifically robust, operationally
+trustworthy, or understandable enough to support wider use and improvement.
+
+I think **we must check if a physical process is correctly represented** because we are dealing
+with models that **do not encode the laws of physics**, as they do not solve the
+differential equations we generally believe describe the systems we are studying.
+
+Instead, we must check that the MLWP models have correctly inferred the laws of
+physics from the data they were trained on.
+
+### Developing trust
+
+When examing forecasts from MLWP models, operational meteorologists will be
+looking for evidence that the forecasts of these models bear resemblance to how
+we know the atmosphere evolves over time. This on a fundamental level comes
+down to obeying the laws of physics (conservation, entropy, forces) and
+a high-level amounts to MLWP model forecasts capturing the larger-scale
+composite phenomena that we observe in Earth's atmosphere (fronts, cyclones,
+storms, etc). Although we don't have complete models of all composite phenomena
+(take the [Madden-Julian
+oscillation](https://en.wikipedia.org/wiki/Madden%E2%80%93Julian_oscillation)
+for example), we often do have mechanistic models that would be very surprising
+if they turned out to be incorrect.
+
+It is my hypothesis that **if we as researchers can evidence that MLWP models
+actually capture physical processes in a mechanistically sensible way** (think of
+checking that if-this-then-that for MLWP models), then **we will both develop
+better MLWP models and have an easier time of building up trusts** from the
+meteorologists that will rely on these models.
+
+### Evolve our understanding of MLWP and develop more skillful MLWP
+
+It is my strong belief that MLWP model architectures that produce skillful
+forecasts today are not an accident, they did not come out of nowhere.
+I think they work well because they encode just enough of the information flow
+in the atmosphere in their architecture (their [inductive
+bias](https://en.wikipedia.org/wiki/Inductive_bias)) to capture the necessary
+aspects of synoptic atmospheric flow.
+There is a trend towards beliving that all we need is simply every larger
+models, larger number of parameters trained on increasingly large dataset,
+a trend particularly clear in field of [Large-Langugage
+Models](https://artificialanalysis.ai/). 
+Although we know that [deep neural-networks are universal function
+approximators](https://doi.org/10.1016/0893-6080(89)90020-8), and so in
+pricinple even fully-connected layers _can_ approximate any function, it wasn't
+until we developed architectures with the prerequisite inductive bias for
+atmospheric flow modelling, that we were able to produce skillful forecasts
+with machine learning.
+
+I have often been pointed towards the [Bitter
+lesson](https://en.wikipedia.org/wiki/Bitter_lesson) in regards to applying
+artificial intelligence to solve problems in different domains. My reading of
+this not that "the deep learning architecture doens't matter" rather it is
+"applying deep learning is better than relying primarily on anthropromophised
+domain-knowledge".
+*To be clear*: I am not advocating that we don't use deep learning, I am
+suggesting a route to making deep learning models better by using our knowledge
+of physical systems and numerical computing when applying deep learning.
+
+It is my hypothesis that the better we understand how and why contemporary
+architectures work, where they have shortcomings, the better we will be equiped
+to create novel architectural, learning, data choices to produce even more skillful weather forecasts with machine-learning.
+
+I would like to see more research in this direction.
+
+### Bridging data-scientist and domain-scientist communities
+
+I think there is a real risk today of loosing the expertise of and leaving
+behind the domain scientists who have worked on making skill numerical weather
+prediction for decades. I am thinking here not just of scientists who have
+intimate knowledge of specific physical processes, but also numerical experts
+who understand how to effectively and accurately computationally solve
+differential equations of the Earth. In addition, I think we lack adequate
+exchange with meteorologists who will actually make use of the forecasts from
+MLWP models.
+
+My reason for this is that I see a lot of the development of MLWP being driven 
+
+## The upcoming seminar series
+
+Over the next year I expect to organise a monthly seminar on Physical-Processed
+Focussed MLWP. I will be asking scientists who I have met and who I think are already
+applying this angle to their work (without explicitly voicing I think though)
+and ask them to present their work, share their experiences and discuss
+together how to further the field.
+
+I will be asking the presenters to address the following exact questions to
+help frame the discussion:
+
+- what **physical process**/processes did you study?
+- what did you **change** about the training data, model architecture, loss objective, etc to improve that process?
+- what was the **hypothesis** behind this change?
+- what did you **learn** from the result?
+- what do you think **could transfer** to other MLWP model architectures/training setups/etc?
+- what remains **unresolved**?
+
+My intention is not to promote one architecture or software framework. The
+point is to create a place where people can present work through the lens of
+atmospheric processes and physical consistency.
+
+Talks could for example focus on:
+
+- verification or assessment of physically meaningful behaviour
+- model design choices that support physical realism
+- case studies where a model succeeds or fails to capture physical processes
+- operational implications of process-aware MLWP
+
+I am especially interested in concrete examples: what was studied, what changed, what happened, and what it tells us about MLWP more broadly.
+
+The format will be: ~40min presention followed by 20min of discussion, all
+online via Teams. Unless otherwise instructed I will record the presentations
+and share the slides and presentations via this website.
+
+## How the page will evolve
+
+I am writing this post to annouce what I am doing (particularly to the speakers
+I have in mind!). Later, it will also become the public record of the series,
+with a list of talks, speakers, dates, and links to slides or recordings where
+available.
+
+So for now it is a call for participation. Over time, it will become an archive.
+
+## Please get in touch!
+
+If your work touches on physical processes in MLWP, I would be glad to hear
+from you. A short talk, a work-in-progress update, or a more synthetic
+perspective would all be useful. Please get in touch on
+[lcd@dmi.dk](mailto:lcd@dmi.dk). Also, feel free to forward this to colleagues
+if you think their work could be interesting to present!
+
+If you share this with someone who might want to speak, that is exactly the point.
+
+And finally, there eventually be a mailing list, but until then you can email
+me if you'd like to be informed about the upcoming talks.
