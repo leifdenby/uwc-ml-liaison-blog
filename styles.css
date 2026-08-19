@@ -13,3 +13,37 @@ main {
 h2 {
   margin-top: 2rem;
 }
+
+.seminar-talks {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.seminar-talks th,
+.seminar-talks td {
+  border: 0;
+  padding: 0.6rem 0.75rem;
+  vertical-align: middle;
+}
+
+.seminar-talks th:first-child,
+.seminar-talks td:first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.seminar-talks thead th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.seminar-talks tbody tr + tr td {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.seminar-talks tbody tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.seminar-talks tbody tr:nth-child(odd) {
+  background: transparent;
+}

@@ -17,7 +17,7 @@ series [here](posts/2026-08-13-announcing-the-physical-process-mlwp-seminar-seri
 
 ## Confirmed Talks
 
-<table>
+<table class="seminar-talks align-middle">
 <colgroup>
 <col style="width: 30%;">
 <col style="width: 70%;">
