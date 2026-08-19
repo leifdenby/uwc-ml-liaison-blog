@@ -1,5 +1,5 @@
 ---
-title: "Announcing The Physical-Process Focussed (PPF) MLWP Seminar Series"
+title: "Announcing The Physical-Process Focussed (2PF) MLWP Seminar Series"
 date: 2026-08-13
 author: "Leif Denby"
 categories:
@@ -21,7 +21,7 @@ But, how do we:
    And further, ensure that we have a route to improve the models?
 
 To put the meteorological community on track address these questions I am
-advocating that we take a *physical-process focussed* approach to MLWP, or *PPF-MLWP* if you will :)
+advocating that we take a *physical-process focussed* approach to MLWP, or *2PF-MLWP* if you will :)
 
 I see (at least) the following motivations for using physical-proccess focussed angle to machine learning weather prediction:
 
@@ -48,7 +48,7 @@ I do not think headline scores are enough on their own. We also need
 to ask what the model is actually capturing, what it is missing, and which
 behaviours are transferable across settings.
 
-## Why the PPF-MLWP topic
+## Why the 2PF-MLWP topic
 
 A [wealth of publications](https://leifdenby.github.io/kmscale-pubs/) MLWP has
 already shown that data-driven forecasting can be skilful. But skill alone does
