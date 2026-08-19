@@ -1,6 +1,8 @@
 ---
-title: "Physical-Process MLWP Seminar Series"
+title: "Physical-Process Foccused (2PF) MLWP Seminar Series"
 ---
+
+<a id="top"></a>
 
 The Physical-Process MLWP Seminar Series is intended as a lightweight forum for
 scientific exchange on machine-learning weather prediction through the lens of
@@ -9,6 +11,58 @@ atmospheric processes and physical consistency.
 The aim is not to promote one model architecture or software framework. The aim
 is to ask what current MLWP systems can and cannot represent physically, and how
 we can learn from successes, failures, and targeted diagnostics.
+
+I have also written an introductory blog post about the motivation for the
+series [here](posts/2026-08-13-announcing-the-physical-process-mlwp-seminar-series/).
+
+## Confirmed Talks
+
+<table>
+<colgroup>
+<col style="width: 30%;">
+<col style="width: 70%;">
+</colgroup>
+<thead>
+<tr>
+<th>Speaker (Institution)</th>
+<th>Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hauke Schulz (DMI)</td>
+<td><a href="#hauke-schulz-dmi">Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales</a></td>
+</tr>
+<tr>
+<td>Marvin Kähnert (MetNo)</td>
+<td><a href="#marvin-kahnert-metno">Physical-process based analysis of MLWP forecasts from BRIS</a></td>
+</tr>
+</tbody>
+</table>
+
+### Hauke Schulz (DMI) {#hauke-schulz-dmi}
+
+**Title:** Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales
+
+**Abstract:**
+
+Data-driven weather prediction has recently matched or surpassed traditional physics-based models at regional and global scales, yet progress towards models operating at hectometre (sub-kilometre) resolution remains limited. This scale is particularly challenging: training data are expensive to generate, and the dominant physical processes such as shallow convection and the cold pools it produces are highly nonlinear and spatially intermittent.
+
+We present a graph neural network (GNN) trained to emulate Large-Eddy Simulation (LES) at 100 m horizontal resolution and sub-hourly time steps. The model is trained on 42 days of high-resolution, realistic simulation output over the winter-time trade-wind regime in the western Atlantic, a region where shallow convective clouds strongly influence the planetary energy budget through their effect on reflected solar radiation.
+
+A key focus is cold-pool dynamics: the cool, dense air masses that spread near the surface when rain evaporates beneath clouds. Cold pools drive the formation of new clouds, organise cloudiness at mesoscales, and require the model to correctly couple processes in the cloud layer with the surface, making them a stringent physical consistency test. Through an ablation study, we quantify which input variables matter most for accurately reproducing the surface temperature perturbations cold pools produce, offering practical guidance for future parameterisation schemes and data selection.
+
+Finally, we demonstrate that the GNN can deterministically predict the lifecycle of cold pools across multiple successive generations, suggesting that graph-based LES emulators can robustly capture the nonlinear feedbacks that govern mesoscale organisation in shallow convective regimes.
+
+[Back to top](#top)
+
+### Marvin Kähnert (MetNo) {#marvin-kahnert-metno}
+
+**Title:** Physical-process based analysis of MLWP forecasts from BRIS
+
+**Abstract:** TBD
+
+[Back to top](#top)
 
 ## Guiding Questions
 
