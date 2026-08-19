@@ -37,6 +37,10 @@ series [here](posts/2026-08-13-announcing-the-physical-process-mlwp-seminar-seri
 <td>Marvin Kähnert (MetNo)</td>
 <td><a href="#marvin-kahnert-metno">Physical-process based analysis of MLWP forecasts from BRIS</a></td>
 </tr>
+<tr>
+<td>Francesco Pasquini (KNMI)</td>
+<td><a href="#francesco-pasquini-knmi">Assessing the ability of a stretched-grid deep-learning weather prediction model to capture physical balances</a></td>
+</tr>
 </tbody>
 </table>
 
@@ -61,6 +65,20 @@ Finally, we demonstrate that the GNN can deterministically predict the lifecycle
 **Title:** Physical-process based analysis of MLWP forecasts from BRIS
 
 **Abstract:** TBD
+
+[Back to top](#top)
+
+### Francesco Pasquini (KNMI) {#francesco-pasquini-knmi}
+
+**Title:** Assessing the ability of a stretched-grid deep-learning weather prediction model to capture physical balances
+
+**Abstract:**
+
+Weather forecasting has traditionally relied on Numerical Weather Prediction (NWP) models, which simulate weather by solving the governing fluid equations. Recently, the emergence of Deep Learning Weather Prediction (DLWP) models has opened a new era in weather forecasting, offering a data-driven alternative to classical NWP approaches. Regional DLWP models such as the stretched-grid model Bris developed by Met Norway have demonstrated performance on par with, or even slightly better than, regional NWP models across a range of standard forecast metrics. By overcoming the coarse horizontal resolution that constrained earlier global data-driven models, the operational use of regional DLWP systems now appears increasingly promising.
+
+Nevertheless, the performance of such models during extreme events is generally inferior to that of regional NWP models, and comprehensive evaluations of their ability to generate physically realistic forecasts are still lacking. Here, we present a study comparing the physical consistency of the deterministic version of Bris with the control run of the operational MetCoOp Ensemble Prediction System (MEPS) in forecasting the severe extratropical cyclone Poly, which hit the Netherlands on 5 July 2023. We examine whether Bris accurately represents deviations from key atmospheric balances and whether it reproduces expected dynamics of the storm.
+
+We show that, despite its relatively good performance in terms of RMSE, Bris struggles to capture important mesoscale features of the event and that it significantly disrupts several atmospheric balances. This unrealistic disruption is mainly linked to the fine-scale noise evidenced in its output fields, which leads to incorrect and unrealistic spatial gradients. These results raise critical questions for improving AI-based models to better represent extreme events and how to ensure physical consistency in their predictions.
 
 [Back to top](#top)
 
