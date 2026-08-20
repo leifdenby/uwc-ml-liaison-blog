@@ -19,26 +19,36 @@ series [here](posts/2026-08-13-announcing-the-physical-process-mlwp-seminar-seri
 
 <table class="seminar-talks align-middle">
 <colgroup>
-<col style="width: 30%;">
-<col style="width: 70%;">
+<col style="width: 22%;">
+<col style="width: 20%;">
+<col style="width: 58%;">
 </colgroup>
 <thead>
 <tr>
 <th>Speaker (Institution)</th>
+<th>Time and date</th>
 <th>Title</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td>Gergely Bölöni (DWD)</td>
+<td>24 Sep 2026, 11:00-12:00 CEST</td>
+<td><a href="#gergely-boloni-dwd">Towards a machine-learning enhanced nowcasting tool for storm severity analysis and prediction</a></td>
+</tr>
+<tr>
 <td>Hauke Schulz (DMI)</td>
+<td>TBD</td>
 <td><a href="#hauke-schulz-dmi">Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales</a></td>
 </tr>
 <tr>
 <td>Marvin Kähnert (MetNo)</td>
+<td>TBD</td>
 <td><a href="#marvin-kahnert-metno">Physical-process based analysis of MLWP forecasts from BRIS</a></td>
 </tr>
 <tr>
 <td>Francesco Pasquini (KNMI)</td>
+<td>TBD</td>
 <td><a href="#francesco-pasquini-knmi">Assessing the ability of a stretched-grid deep-learning weather prediction model to capture physical balances</a></td>
 </tr>
 </tbody>
@@ -79,6 +89,20 @@ Weather forecasting has traditionally relied on Numerical Weather Prediction (NW
 Nevertheless, the performance of such models during extreme events is generally inferior to that of regional NWP models, and comprehensive evaluations of their ability to generate physically realistic forecasts are still lacking. Here, we present a study comparing the physical consistency of the deterministic version of Bris with the control run of the operational MetCoOp Ensemble Prediction System (MEPS) in forecasting the severe extratropical cyclone Poly, which hit the Netherlands on 5 July 2023. We examine whether Bris accurately represents deviations from key atmospheric balances and whether it reproduces expected dynamics of the storm.
 
 We show that, despite its relatively good performance in terms of RMSE, Bris struggles to capture important mesoscale features of the event and that it significantly disrupts several atmospheric balances. This unrealistic disruption is mainly linked to the fine-scale noise evidenced in its output fields, which leads to incorrect and unrealistic spatial gradients. These results raise critical questions for improving AI-based models to better represent extreme events and how to ensure physical consistency in their predictions.
+
+[Back to top](#top)
+
+### Gergely Bölöni (DWD) {#gergely-boloni-dwd}
+
+**Title:** Towards a machine-learning enhanced nowcasting tool for storm severity analysis and prediction
+
+**Authors:** Gergely Bölöni, Paul James, Michael Debertshäuser, Susanne Theis
+
+**Abstract:**
+
+At the German Weather Service (DWD), the NowCastMIX system (James et al., 2018) is an important tool for issuing severe weather warnings on the next-hour timescale using radar, lightning, NWP, and other data. In its analysis step, NowCastMIX detects thunderstorm cells and assigns a severity level based on remote sensing and numerical model data at their locations. In the prediction step, the thunderstorm cells are clustered and then linearly extrapolated according to estimated motion vectors, with the extrapolated clusters retaining the severity assigned in the analysis step.
+
+To improve the prediction step, we present a machine-learning approach that incorporates the convective life cycle of cell clusters. We show a proof of concept and stages of ML-model development through idealized experiments with synthetic data, followed by a demonstration with real data.
 
 [Back to top](#top)
 
