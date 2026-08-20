@@ -66,6 +66,20 @@ recorded and made available on the seminar series website.
 
 Have an idea for a presentation? [Get in touch](contact.qmd) with me to discuss your idea and schedule a seminar.
 
+### Gergely Bölöni (DWD) {#gergely-boloni-dwd}
+
+**Title:** Towards a machine-learning enhanced nowcasting tool for storm severity analysis and prediction
+
+**Authors:** Gergely Bölöni, Paul James, Michael Debertshäuser, Susanne Theis
+
+**Abstract:**
+
+At the German Weather Service (DWD), the NowCastMIX system (James et al., 2018) is an important tool for issuing severe weather warnings on the next-hour timescale using radar, lightning, NWP, and other data. In its analysis step, NowCastMIX detects thunderstorm cells and assigns a severity level based on remote sensing and numerical model data at their locations. In the prediction step, the thunderstorm cells are clustered and then linearly extrapolated according to estimated motion vectors, with the extrapolated clusters retaining the severity assigned in the analysis step.
+
+To improve the prediction step, we present a machine-learning approach that incorporates the convective life cycle of cell clusters. We show a proof of concept and stages of ML-model development through idealized experiments with synthetic data, followed by a demonstration with real data.
+
+[Back to top](#top)
+
 ### Hauke Schulz (DMI) {#hauke-schulz-dmi}
 
 **Title:** Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales
@@ -79,20 +93,6 @@ We present a graph neural network (GNN) trained to emulate Large-Eddy Simulation
 A key focus is cold-pool dynamics: the cool, dense air masses that spread near the surface when rain evaporates beneath clouds. Cold pools drive the formation of new clouds, organise cloudiness at mesoscales, and require the model to correctly couple processes in the cloud layer with the surface, making them a stringent physical consistency test. Through an ablation study, we quantify which input variables matter most for accurately reproducing the surface temperature perturbations cold pools produce, offering practical guidance for future parameterisation schemes and data selection.
 
 Finally, we demonstrate that the GNN can deterministically predict the lifecycle of cold pools across multiple successive generations, suggesting that graph-based LES emulators can robustly capture the nonlinear feedbacks that govern mesoscale organisation in shallow convective regimes.
-
-[Back to top](#top)
-
-### Gergely Bölöni (DWD) {#gergely-boloni-dwd}
-
-**Title:** Towards a machine-learning enhanced nowcasting tool for storm severity analysis and prediction
-
-**Authors:** Gergely Bölöni, Paul James, Michael Debertshäuser, Susanne Theis
-
-**Abstract:**
-
-At the German Weather Service (DWD), the NowCastMIX system (James et al., 2018) is an important tool for issuing severe weather warnings on the next-hour timescale using radar, lightning, NWP, and other data. In its analysis step, NowCastMIX detects thunderstorm cells and assigns a severity level based on remote sensing and numerical model data at their locations. In the prediction step, the thunderstorm cells are clustered and then linearly extrapolated according to estimated motion vectors, with the extrapolated clusters retaining the severity assigned in the analysis step.
-
-To improve the prediction step, we present a machine-learning approach that incorporates the convective life cycle of cell clusters. We show a proof of concept and stages of ML-model development through idealized experiments with synthetic data, followed by a demonstration with real data.
 
 [Back to top](#top)
 
