@@ -15,7 +15,17 @@ we can learn from successes, failures, and targeted diagnostics.
 I have also written an introductory blog post about the motivation for the
 series [here](posts/2026-08-13-announcing-the-physical-process-mlwp-seminar-series/).
 
+**If you want to be informed about upcoming talks** you can join the `2pf-mlwp`
+mailing list by sending email to
+[2pf-mlwp-request@freelists.org](mailto:2pf-mlwp-request@freelists.org?subject=subscribe)
+with 'subscribe' in the Subject field OR by visiting the [mailing list
+page](https://www.freelists.org/list/2pf-mlwp).
+
 ## Confirmed Talks
+
+> The general plan is that talks will be on the third Thursday of every month
+at 11:00 CEST, with a duration of 1 hour. It is planned that talks will be
+recorded and made available on the seminar series website.
 
 <table class="seminar-talks align-middle">
 <colgroup>
@@ -54,6 +64,8 @@ series [here](posts/2026-08-13-announcing-the-physical-process-mlwp-seminar-seri
 </tbody>
 </table>
 
+Have an idea for a presentation? [Get in touch](contact.qmd) with me to discuss your idea and schedule a seminar.
+
 ### Hauke Schulz (DMI) {#hauke-schulz-dmi}
 
 **Title:** Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales
@@ -67,6 +79,20 @@ We present a graph neural network (GNN) trained to emulate Large-Eddy Simulation
 A key focus is cold-pool dynamics: the cool, dense air masses that spread near the surface when rain evaporates beneath clouds. Cold pools drive the formation of new clouds, organise cloudiness at mesoscales, and require the model to correctly couple processes in the cloud layer with the surface, making them a stringent physical consistency test. Through an ablation study, we quantify which input variables matter most for accurately reproducing the surface temperature perturbations cold pools produce, offering practical guidance for future parameterisation schemes and data selection.
 
 Finally, we demonstrate that the GNN can deterministically predict the lifecycle of cold pools across multiple successive generations, suggesting that graph-based LES emulators can robustly capture the nonlinear feedbacks that govern mesoscale organisation in shallow convective regimes.
+
+[Back to top](#top)
+
+### Gergely Bölöni (DWD) {#gergely-boloni-dwd}
+
+**Title:** Towards a machine-learning enhanced nowcasting tool for storm severity analysis and prediction
+
+**Authors:** Gergely Bölöni, Paul James, Michael Debertshäuser, Susanne Theis
+
+**Abstract:**
+
+At the German Weather Service (DWD), the NowCastMIX system (James et al., 2018) is an important tool for issuing severe weather warnings on the next-hour timescale using radar, lightning, NWP, and other data. In its analysis step, NowCastMIX detects thunderstorm cells and assigns a severity level based on remote sensing and numerical model data at their locations. In the prediction step, the thunderstorm cells are clustered and then linearly extrapolated according to estimated motion vectors, with the extrapolated clusters retaining the severity assigned in the analysis step.
+
+To improve the prediction step, we present a machine-learning approach that incorporates the convective life cycle of cell clusters. We show a proof of concept and stages of ML-model development through idealized experiments with synthetic data, followed by a demonstration with real data.
 
 [Back to top](#top)
 
@@ -89,20 +115,6 @@ Weather forecasting has traditionally relied on Numerical Weather Prediction (NW
 Nevertheless, the performance of such models during extreme events is generally inferior to that of regional NWP models, and comprehensive evaluations of their ability to generate physically realistic forecasts are still lacking. Here, we present a study comparing the physical consistency of the deterministic version of Bris with the control run of the operational MetCoOp Ensemble Prediction System (MEPS) in forecasting the severe extratropical cyclone Poly, which hit the Netherlands on 5 July 2023. We examine whether Bris accurately represents deviations from key atmospheric balances and whether it reproduces expected dynamics of the storm.
 
 We show that, despite its relatively good performance in terms of RMSE, Bris struggles to capture important mesoscale features of the event and that it significantly disrupts several atmospheric balances. This unrealistic disruption is mainly linked to the fine-scale noise evidenced in its output fields, which leads to incorrect and unrealistic spatial gradients. These results raise critical questions for improving AI-based models to better represent extreme events and how to ensure physical consistency in their predictions.
-
-[Back to top](#top)
-
-### Gergely Bölöni (DWD) {#gergely-boloni-dwd}
-
-**Title:** Towards a machine-learning enhanced nowcasting tool for storm severity analysis and prediction
-
-**Authors:** Gergely Bölöni, Paul James, Michael Debertshäuser, Susanne Theis
-
-**Abstract:**
-
-At the German Weather Service (DWD), the NowCastMIX system (James et al., 2018) is an important tool for issuing severe weather warnings on the next-hour timescale using radar, lightning, NWP, and other data. In its analysis step, NowCastMIX detects thunderstorm cells and assigns a severity level based on remote sensing and numerical model data at their locations. In the prediction step, the thunderstorm cells are clustered and then linearly extrapolated according to estimated motion vectors, with the extrapolated clusters retaining the severity assigned in the analysis step.
-
-To improve the prediction step, we present a machine-learning approach that incorporates the convective life cycle of cell clusters. We show a proof of concept and stages of ML-model development through idealized experiments with synthetic data, followed by a demonstration with real data.
 
 [Back to top](#top)
 
@@ -138,5 +150,3 @@ Each seminar should try to answer:
 
 The series is still being formed. Suggestions for speakers, papers, topics, or
 examples are welcome. See [Contact](contact.qmd).
-
-Confirmed seminars will be listed here once speakers have agreed.

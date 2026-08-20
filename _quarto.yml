@@ -35,7 +35,7 @@ website:
         text: Contact
   page-footer:
     left: "UWC ML Liaison Notes"
-    right: "Built with Quarto"
+    right: "Built with Quarto | [Fork/edit on GitHub](https://github.com/leifdenby/uwc-ml-liaison-blog)"
 
 format:
   html:

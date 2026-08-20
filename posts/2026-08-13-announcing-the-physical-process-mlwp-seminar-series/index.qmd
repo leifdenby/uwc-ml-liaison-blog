@@ -36,12 +36,12 @@ I see (at least) the following motivations for using physical-proccess focussed 
   meteorologists. Develop a common process and language around how to frame
   model skill and model improvement.
 
-These aspects together are my motivation for **setting up a seminar series on
-physical-process-focused MLWP**, not just for UWC, but for the whole
+These aspects together are my motivation for **[setting up a seminar series on
+physical-process-focused MLWP](/seminar-series.qmd)**, not just for UWC, but for the whole
 meteorological community. I will elaborate more on each of these motivations in
 the sections below.
 
-The series is will be a forum for talks and discussion about whether MLWP
+The series will be a forum for talks and discussion about whether MLWP
 models represent the atmospheric processes relevant to weather prediction, and
 through this I hope to build a community of people that share these interests.
 I do not think headline scores are enough on their own. We also need
