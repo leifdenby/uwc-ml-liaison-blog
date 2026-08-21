@@ -44,7 +44,7 @@ recorded and made available on the seminar series website.
 <tr>
 <td>Gergely Bölöni (DWD)</td>
 <td>24 Sep 2026, 11:00-12:00 CEST</td>
-<td><a href="#gergely-boloni-dwd">Towards a machine-learning enhanced nowcasting tool for storm severity analysis and prediction</a></td>
+<td><a href="#gergely-boloni-dwd">Towards a machine-learning enhanced nowcasting tool for thunderstorm severity analysis and prediction</a></td>
 </tr>
 <tr>
 <td>Hauke Schulz (DMI)</td>
@@ -68,7 +68,7 @@ Have an idea for a presentation? [Get in touch](contact.qmd) with me to discuss 
 
 ### Gergely Bölöni (DWD) {#gergely-boloni-dwd}
 
-**Title:** Towards a machine-learning enhanced nowcasting tool for storm severity analysis and prediction
+**Title:** Towards a machine-learning enhanced nowcasting tool for thunderstorm severity analysis and prediction
 
 **Authors:** Gergely Bölöni, Paul James, Michael Debertshäuser, Susanne Theis
 
@@ -76,7 +76,7 @@ Have an idea for a presentation? [Get in touch](contact.qmd) with me to discuss 
 
 At the German Weather Service (DWD), the NowCastMIX system (James et al., 2018) is an important tool for issuing severe weather warnings on the next-hour timescale using radar, lightning, NWP, and other data. In its analysis step, NowCastMIX detects thunderstorm cells and assigns a severity level based on remote sensing and numerical model data at their locations. In the prediction step, the thunderstorm cells are clustered and then linearly extrapolated according to estimated motion vectors, with the extrapolated clusters retaining the severity assigned in the analysis step.
 
-To improve the prediction step, we present a machine-learning approach that incorporates the convective life cycle of cell clusters. We show a proof of concept and stages of ML-model development through idealized experiments with synthetic data, followed by a demonstration with real data.
+In order to improve the prediction step, we present a machine learning (ML) approach that aims at non-linear propagation and a representation of the convective life cycle of thunderstorm cell clusters. Our ML-approach is inspired by 2D fluid dynamics, i. e. convective storm development is treated as a forced 2D advection problem. A proof of concept and stages of the ML-model development will be shown through idealized experiments with synthetic data, followed by a demonstration with real data.
 
 [Back to top](#top)
 
