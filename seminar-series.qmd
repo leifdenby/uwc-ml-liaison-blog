@@ -47,6 +47,11 @@ recorded and made available on the seminar series website.
 <td><a href="#gergely-boloni-dwd">Towards a machine-learning enhanced nowcasting tool for thunderstorm severity analysis and prediction</a></td>
 </tr>
 <tr>
+<td>Marvin Kähnert (MetNo)</td>
+<td>15 Oct 2026, 11:00-12:00 CEST</td>
+<td><a href="#marvin-kahnert-metno">Physical-process based analysis of MLWP forecasts from BRIS</a></td>
+</tr>
+<tr>
 <td>Gabriel Moldovan (ECMWF)</td>
 <td>TBD</td>
 <td><a href="#gabriel-moldovan-ecmwf"><i>working title: light-precipitation constraints in AIFS</i></a></td>
@@ -55,11 +60,6 @@ recorded and made available on the seminar series website.
 <td>Hauke Schulz (DMI)</td>
 <td>TBD</td>
 <td><a href="#hauke-schulz-dmi">Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales</a></td>
-</tr>
-<tr>
-<td>Marvin Kähnert (MetNo)</td>
-<td>TBD</td>
-<td><a href="#marvin-kahnert-metno">Physical-process based analysis of MLWP forecasts from BRIS</a></td>
 </tr>
 <tr>
 <td>Francesco Pasquini (KNMI)</td>
@@ -85,6 +85,14 @@ In order to improve the prediction step, we present a machine learning (ML) appr
 
 [Back to top](#top)
 
+### Marvin Kähnert (MetNo) {#marvin-kahnert-metno}
+
+**Title:** Physical-process based analysis of MLWP forecasts from BRIS
+
+**Abstract:** TBD
+
+[Back to top](#top)
+
 ### Gabriel Moldovan (ECMWF) {#gabriel-moldovan-ecmwf}
 
 **Title:** (working title: light-precipitation constraints in AIFS)
@@ -106,14 +114,6 @@ We present a graph neural network (GNN) trained to emulate Large-Eddy Simulation
 A key focus is cold-pool dynamics: the cool, dense air masses that spread near the surface when rain evaporates beneath clouds. Cold pools drive the formation of new clouds, organise cloudiness at mesoscales, and require the model to correctly couple processes in the cloud layer with the surface, making them a stringent physical consistency test. Through an ablation study, we quantify which input variables matter most for accurately reproducing the surface temperature perturbations cold pools produce, offering practical guidance for future parameterisation schemes and data selection.
 
 Finally, we demonstrate that the GNN can deterministically predict the lifecycle of cold pools across multiple successive generations, suggesting that graph-based LES emulators can robustly capture the nonlinear feedbacks that govern mesoscale organisation in shallow convective regimes.
-
-[Back to top](#top)
-
-### Marvin Kähnert (MetNo) {#marvin-kahnert-metno}
-
-**Title:** Physical-process based analysis of MLWP forecasts from BRIS
-
-**Abstract:** TBD
 
 [Back to top](#top)
 
