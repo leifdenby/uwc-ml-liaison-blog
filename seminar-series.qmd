@@ -58,7 +58,7 @@ recorded and made available on the seminar series website.
 </tr>
 <tr>
 <td>Hauke Schulz (DMI)</td>
-<td>TBD</td>
+<td>19 Nov 2026, 11:00-12:00 CEST</td>
 <td><a href="#hauke-schulz-dmi">Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales</a></td>
 </tr>
 <tr>
