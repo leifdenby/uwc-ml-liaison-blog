@@ -52,14 +52,14 @@ recorded and made available on the seminar series website.
 <td><a href="#marvin-kahnert-metno">Physical-process based analysis of MLWP forecasts from BRIS</a></td>
 </tr>
 <tr>
-<td>Gabriel Moldovan (ECMWF)</td>
-<td>TBD</td>
-<td><a href="#gabriel-moldovan-ecmwf"><i>working title: light-precipitation constraints in AIFS</i></a></td>
-</tr>
-<tr>
 <td>Hauke Schulz (DMI)</td>
 <td>19 Nov 2026, 11:00-12:00 CEST</td>
 <td><a href="#hauke-schulz-dmi">Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales</a></td>
+</tr>
+<tr>
+<td>Gabriel Moldovan (ECMWF)</td>
+<td>TBD</td>
+<td><a href="#gabriel-moldovan-ecmwf">Improving the representation of light precipitation in AIFS-Single v1 through non-negativity constraints</a></td>
 </tr>
 <tr>
 <td>Francesco Pasquini (KNMI)</td>
@@ -95,9 +95,11 @@ In order to improve the prediction step, we present a machine learning (ML) appr
 
 ### Gabriel Moldovan (ECMWF) {#gabriel-moldovan-ecmwf}
 
-**Title:** (working title: light-precipitation constraints in AIFS)
+**Title:** Improving the representation of light precipitation in AIFS-Single v1 through non-negativity constraints
 
-**Abstract:** TBD
+**Abstract:**
+
+Graph neural network-based models such as AIFS and GraphCast have been shown to represent precipitation with an intense drizzle bias. In this work, we show that this behaviour is related to gradient ambiguity arising at the zero-precipitation boundary when training with MSE. By simply enforcing non-negativity on the total precipitation head, we show that the model learns a substantially different representation of precipitation. More specifically, the resulting geometrical boundary at the zero-precipitation threshold allows the model to use the negative-output region as a proxy for dryness, while eliminating the gradient ambiguity at zero precipitation.
 
 [Back to top](#top)
 
