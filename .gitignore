@@ -3,3 +3,12 @@ _site/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Slides, recordings and transcripts are linked from the site, never
+# committed (they live in the Nextcloud-synced seminar project folder).
+*.pptx
+*.ppt
+*.mp4
+*.mov
+*.vtt
+*.docx

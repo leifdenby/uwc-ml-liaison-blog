@@ -21,7 +21,7 @@ mailing list by sending email to
 with 'subscribe' in the Subject field OR by visiting the [mailing list
 page](https://www.freelists.org/list/2pf-mlwp).
 
-## Confirmed Talks
+## Talk Series
 
 > The general plan is that talks will be on the third Thursday of every month
 at 11:00 CEST, with a duration of 1 hour. It is planned that talks will be
@@ -29,15 +29,17 @@ recorded and made available on the seminar series website.
 
 <table class="seminar-talks align-middle">
 <colgroup>
-<col style="width: 22%;">
 <col style="width: 20%;">
-<col style="width: 58%;">
+<col style="width: 18%;">
+<col style="width: 40%;">
+<col style="width: 22%;">
 </colgroup>
 <thead>
 <tr>
 <th>Speaker (Institution)</th>
 <th>Time and date</th>
 <th>Title</th>
+<th>Recording and slides</th>
 </tr>
 </thead>
 <tbody>
@@ -45,26 +47,31 @@ recorded and made available on the seminar series website.
 <td>Gergely Bölöni (DWD)</td>
 <td>24 Sep 2026, 11:00-12:00 CEST</td>
 <td><a href="#gergely-boloni-dwd">Towards a machine-learning enhanced nowcasting tool for thunderstorm severity analysis and prediction</a></td>
+<td><a href="https://youtu.be/MjZJWwi7vP4">Recording</a> | <a href="https://cloud.denby.eu/s/cnsb5YQ2Ckj9TLC/download">Slides (PDF)</a></td>
 </tr>
 <tr>
 <td>Marvin Kähnert (MetNo)</td>
 <td>15 Oct 2026, 11:00-12:00 CEST</td>
 <td><a href="#marvin-kahnert-metno">Physical-process based analysis of MLWP forecasts from BRIS</a></td>
+<td>&ndash;</td>
 </tr>
 <tr>
 <td>Hauke Schulz (DMI)</td>
 <td>19 Nov 2026, 11:00-12:00 CEST</td>
 <td><a href="#hauke-schulz-dmi">Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales</a></td>
+<td>&ndash;</td>
 </tr>
 <tr>
 <td>Gabriel Moldovan (ECMWF)</td>
 <td>TBD</td>
 <td><a href="#gabriel-moldovan-ecmwf">Improving the representation of light precipitation in AIFS-Single v1 through non-negativity constraints</a></td>
+<td>&ndash;</td>
 </tr>
 <tr>
 <td>Francesco Pasquini (KNMI)</td>
 <td>TBD</td>
 <td><a href="#francesco-pasquini-knmi">Assessing the ability of a stretched-grid deep-learning weather prediction model to capture physical balances</a></td>
+<td>&ndash;</td>
 </tr>
 </tbody>
 </table>
@@ -76,6 +83,8 @@ Have an idea for a presentation? [Get in touch](contact.qmd) with me to discuss 
 **Title:** Towards a machine-learning enhanced nowcasting tool for thunderstorm severity analysis and prediction
 
 **Authors:** Gergely Bölöni, Paul James, Michael Debertshäuser, Susanne Theis
+
+**Recording and slides:** [Watch the recording on YouTube](https://youtu.be/MjZJWwi7vP4) | [Download the slides (PDF)](https://cloud.denby.eu/s/cnsb5YQ2Ckj9TLC/download)
 
 **Abstract:**
 
