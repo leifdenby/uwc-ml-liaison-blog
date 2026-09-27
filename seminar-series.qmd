@@ -24,7 +24,7 @@ page](https://www.freelists.org/list/2pf-mlwp).
 ## Talk Series
 
 > The general plan is that talks will be on the third Thursday of every month
-at 11:00 CEST, with a duration of 1 hour. It is planned that talks will be
+at 11:00 Copenhagen time (CET in winter, CEST in summer), with a duration of 1 hour. It is planned that talks will be
 recorded and made available on the seminar series website.
 
 <table class="seminar-talks align-middle">
@@ -57,7 +57,7 @@ recorded and made available on the seminar series website.
 </tr>
 <tr>
 <td>Hauke Schulz (DMI)</td>
-<td>19 Nov 2026, 11:00-12:00 CEST</td>
+<td>19 Nov 2026, 11:00-12:00 CET</td>
 <td><a href="#hauke-schulz-dmi">Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales</a></td>
 <td>&ndash;</td>
 </tr>
