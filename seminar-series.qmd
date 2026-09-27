@@ -63,7 +63,7 @@ recorded and made available on the seminar series website.
 </tr>
 <tr>
 <td>Gabriel Moldovan (ECMWF)</td>
-<td>TBD</td>
+<td>21 Jan 2027, 11:00-12:00 CET</td>
 <td><a href="#gabriel-moldovan-ecmwf">Improving the representation of light precipitation in AIFS-Single v1 through non-negativity constraints</a></td>
 <td>&ndash;</td>
 </tr>
