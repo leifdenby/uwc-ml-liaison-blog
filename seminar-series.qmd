@@ -53,7 +53,7 @@ recorded and made available on the seminar series website.
 <td>Marvin Kähnert (MetNo)</td>
 <td>15 Oct 2026, 11:00-12:00 CEST</td>
 <td><a href="#marvin-kahnert-metno">A first assessment of process-representation in Bris</a></td>
-<td>&ndash;</td>
+<td><a href="https://youtu.be/Qld2ady8nvM">Recording</a> | <a href="https://cloud.denby.eu/s/Qw8Dd3x67gZ7z5T/download">Slides (PDF)</a></td>
 </tr>
 <tr>
 <td>Hauke Schulz (DMI)</td>
@@ -97,6 +97,8 @@ In order to improve the prediction step, we present a machine learning (ML) appr
 ### Marvin Kähnert (MetNo) {#marvin-kahnert-metno}
 
 **Title:** A first assessment of process-representation in Bris
+
+**Recording and slides:** [Watch the recording on YouTube](https://youtu.be/Qld2ady8nvM) | [Download the slides (PDF)](https://cloud.denby.eu/s/Qw8Dd3x67gZ7z5T/download)
 
 **Abstract:**
 
