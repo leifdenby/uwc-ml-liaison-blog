@@ -57,9 +57,9 @@ recorded and made available on the seminar series website.
 </tr>
 <tr>
 <td>Hauke Schulz (DMI)</td>
-<td>19 Nov 2026, 11:00-12:00 CET</td>
+<td><del>19 Nov 2026, 11:00-12:00 CET</del><br><strong>Cancelled</strong></td>
 <td><a href="#hauke-schulz-dmi">Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales</a></td>
-<td>&ndash;</td>
+<td>Cancelled</td>
 </tr>
 <tr>
 <td>Francesco Pasquini (KNMI)</td>
@@ -109,6 +109,8 @@ This talk presents a process-based evaluation of the ML weather prediction model
 ### Hauke Schulz (DMI) {#hauke-schulz-dmi}
 
 **Title:** Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales
+
+**Status:** Unfortunately this talk, planned for 19 Nov 2026, has been cancelled.
 
 **Abstract:**
 
