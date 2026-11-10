@@ -56,10 +56,10 @@ recorded and made available on the seminar series website.
 <td><a href="https://youtu.be/Qld2ady8nvM">Recording</a> | <a href="https://cloud.denby.eu/s/Qw8Dd3x67gZ7z5T/download">Slides (PDF)</a></td>
 </tr>
 <tr>
-<td>Hauke Schulz (DMI)</td>
-<td><del>19 Nov 2026, 11:00-12:00 CET</del><br><strong>Cancelled</strong></td>
-<td><a href="#hauke-schulz-dmi">Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales</a></td>
-<td>Cancelled</td>
+<td>Michael Denhard (DWD)</td>
+<td>19 Nov 2026, 11:00-12:00 CET</td>
+<td><a href="#michael-denhard-dwd">Error amplification in the AICON MLWP model</a></td>
+<td>&ndash;</td>
 </tr>
 <tr>
 <td>Francesco Pasquini (KNMI)</td>
@@ -106,21 +106,13 @@ This talk presents a process-based evaluation of the ML weather prediction model
 
 [Back to top](#top)
 
-### Hauke Schulz (DMI) {#hauke-schulz-dmi}
+### Michael Denhard (DWD) {#michael-denhard-dwd}
 
-**Title:** Graph Neural Networks as Large-Eddy Simulators: Modelling Cold-Pool Dynamics at Hectometre Scales
-
-**Status:** Unfortunately this talk, planned for 19 Nov 2026, has been cancelled.
+**Title:** Error amplification in the AICON MLWP model
 
 **Abstract:**
 
-Data-driven weather prediction has recently matched or surpassed traditional physics-based models at regional and global scales, yet progress towards models operating at hectometre (sub-kilometre) resolution remains limited. This scale is particularly challenging: training data are expensive to generate, and the dominant physical processes such as shallow convection and the cold pools it produces are highly nonlinear and spatially intermittent.
-
-We present a graph neural network (GNN) trained to emulate Large-Eddy Simulation (LES) at 100 m horizontal resolution and sub-hourly time steps. The model is trained on 42 days of high-resolution, realistic simulation output over the winter-time trade-wind regime in the western Atlantic, a region where shallow convective clouds strongly influence the planetary energy budget through their effect on reflected solar radiation.
-
-A key focus is cold-pool dynamics: the cool, dense air masses that spread near the surface when rain evaporates beneath clouds. Cold pools drive the formation of new clouds, organise cloudiness at mesoscales, and require the model to correctly couple processes in the cloud layer with the surface, making them a stringent physical consistency test. Through an ablation study, we quantify which input variables matter most for accurately reproducing the surface temperature perturbations cold pools produce, offering practical guidance for future parameterisation schemes and data selection.
-
-Finally, we demonstrate that the GNN can deterministically predict the lifecycle of cold pools across multiple successive generations, suggesting that graph-based LES emulators can robustly capture the nonlinear feedbacks that govern mesoscale organisation in shallow convective regimes.
+The global machine learning model AICON at DWD runs operationally at 13km horizontal resolution with a model time step of 3h. Goecke et al. (2026) show that its pressure field forecasts are inferior to the ICON NWP reference. The reason is that AICON amplifies noise during iterative forecast inference, because there is no fine-tuning rollout training with longer forecast lead times. In the DA cycle, where background model forecasts provide a first guess for the next analysis, the autocorrelation property of the background dynamics also transports errors through time. AICON ranks these errors as predictable variance based on its 3h model training. This leads to a noise amplification property in the most strongly autocorrelated parameters like the pressure field. We explore the error growth in the AICON operational ML model with Singular Vectors and further analyze the autocorrelation properties of the ICON-DREAM and ERA5 re-analysis datasets. From these results we derive recommendations for a longer-range rollout training process.
 
 [Back to top](#top)
 
